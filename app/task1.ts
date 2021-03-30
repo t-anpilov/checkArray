@@ -1,4 +1,4 @@
-exports.isSorted = function (arr) {
+export default function isSorted (arr: number[]):boolean {
     let result = true
 
     for (let i=0; i < arr.length; i=i+1){
